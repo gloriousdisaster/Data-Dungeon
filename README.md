@@ -1,12 +1,8 @@
 # Data-Dungeon
 
-
 <img src="images/icon.png" alt="Data Dungeon" width="300">
 
 [![Static Badge](https://img.shields.io/badge/glorious-disaster-blue?labelColor=purple)](https://github.com/gloriousdisaster)
-
-
-
 
 Welcome to the **Data-Dungeon**, where glorious chaos meets disastrous brilliance! 🎉
 
@@ -28,3 +24,9 @@ Because it's a treasure trove of ideas and experiments, with a little chaos mixe
 Feel free to explore, learn, laugh, and (hopefully) find some inspiration. Beware: the Data-Dungeon is not for the faint of heart.
 
 🚀 Let the chaos begin!
+
+---
+
+### License
+
+Unless explicitly stated otherwise, all original works uploaded to this repository are made available under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) and/or [MIT](https://opensource.org/licenses/MIT) licenses.
