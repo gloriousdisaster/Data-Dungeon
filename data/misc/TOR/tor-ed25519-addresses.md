@@ -2,6 +2,8 @@
 
 [![Static Badge](https://img.shields.io/badge/certified-disaster-blue)](https://github.com/gloriousdisaster)
 
+<span style="color: red;">If any of this is important to you, I'd check my math. It really could be disastrous.</span>
+
 **If you find errors in this math, let me know.**
 
 > **ℹ️ Note:**  
