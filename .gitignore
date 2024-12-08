@@ -1,0 +1,66 @@
+# OS-generated files
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env/
+env/
+venv/
+venv-*/
+
+# Bash-related files
+*.sh~
+*.bak
+
+# PowerShell-related files
+*.ps1~
+*.bak
+
+# Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Node.js dependencies (if applicable for scripting)
+node_modules/
+
+# Documentation files
+*.pdf~
+*.docx~
+*.md~
+*.rst~
+*.txt~
+
+# Backup and archive files
+*.bak
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Editor-specific files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# macOS Finder
+.Trashes
+.Spotlight-V100
+.AppleDouble
