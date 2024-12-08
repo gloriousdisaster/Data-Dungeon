@@ -29,4 +29,7 @@ Feel free to explore, learn, laugh, and (hopefully) find some inspiration. Bewar
 
 ### License
 
-Unless explicitly stated otherwise, all original works uploaded to this repository are made available under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) and/or [MIT](https://opensource.org/licenses/MIT) licenses.
+Unless explicitly stated otherwise, all original works uploaded to this repository are made available under:
+
+[![CC0 1.0 Universal](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)  
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
