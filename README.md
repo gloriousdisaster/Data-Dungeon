@@ -31,4 +31,4 @@ Feel free to explore, learn, laugh, and (hopefully) find some inspiration. Bewar
 
 Unless explicitly stated otherwise, all original works uploaded to this repository are made available under:
 
-[![CC0 1.0 Universal](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg](https://creativecommons.org/publicdomain/zero/1.0/) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CC0 1.0 Universal](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
