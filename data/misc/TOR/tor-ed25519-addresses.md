@@ -25,7 +25,8 @@ pending-tasks: false
 > [!note]
 > Base-32 omits the numeral digits of 0,1,8,9
 
-> [!note] _References:_
+> [!note]
+> _References:_
 >
 > - https://github.com/cathugger/mkp224o/issues/27 #github
 > - https://mathway.com
