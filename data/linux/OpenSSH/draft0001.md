@@ -1,20 +1,3 @@
----
-title: OpenSSH Certificate PKI Management Guide
-project: true
-status: ongoing
-summary: Guide and Application Code
-tags:
-  - OpenSSH
-  - PKI
-  - Cert
-created: 2024-5-01
-updated: 2024-12-07
-time-spent: Unknown / 20+ Hours
-llm-used: true
-pending-tasks: true
-github-publish: false
----
-
 # DRAFT \*\*\*\*
 
 ### Summary: How to Generate and Configure SSH Certificate-Based Authentication in OpenSSH

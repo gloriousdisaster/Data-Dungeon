@@ -1,21 +1,3 @@
----
-title: "Generation of TOR Vanity ED25519 Addresses"
-status: "Complete"
-summary: "This is a write-up to help one understand the time it could take to generate an ED25519 .onion address (base32 encoding) for Tor-hosted services using the mkp224o command-line tool."
-tags:
-  - cryptography
-  - math
-  - tor
-  - mkp224o
-  - programming
-created: ""
-updated: ""
-priority: -1
-time-spent:
-llm-used: muttiple
-pending-tasks: false
----
-
 # Calculating Time - Generating Onion Addresses
 
 [![Static Badge](https://img.shields.io/badge/certified-disaster-blue)](https://github.com/gloriousdisaster)
@@ -25,7 +7,7 @@ pending-tasks: false
 > **ℹ️ Note:**  
 > Base-32 omits the numeral digits of 0, 1, 8, and 9.
 
-> [!note] > _References:_
+> **📖 References:**
 >
 > - https://github.com/cathugger/mkp224o/issues/27 #github
 > - https://mathway.com
