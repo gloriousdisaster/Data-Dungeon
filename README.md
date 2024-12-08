@@ -1,7 +1,7 @@
 # Data-Dungeon
 
 
-<img src="images/icon.png" alt="Data Dungeon" width="125">
+<img src="images/icon.png" alt="Data Dungeon">
 
 [![Static Badge](https://img.shields.io/badge/glorious-disaster-blue?labelColor=purple)](https://github.com/gloriousdisaster)
 
