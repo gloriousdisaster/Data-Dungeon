@@ -25,8 +25,7 @@ pending-tasks: false
 > [!note]
 > Base-32 omits the numeral digits of 0,1,8,9
 
-> [!note]
-> _References:_
+> [!note] > _References:_
 >
 > - https://github.com/cathugger/mkp224o/issues/27 #github
 > - https://mathway.com
@@ -36,19 +35,17 @@ pending-tasks: false
 
 # Equation Breakdown
 
+> [!warning] **GitHub Rendering Warning**  
+> LaTeX and MathJax may not render correctly on GitHub.
+
 ### Formula
 
-$$
-\large \begin{align*}
-& p=Percentage ~ of ~ Probability \\
-& n= Number ~ of ~ Characters ~ (for~prefix) \\
-& t= Number ~ of ~ Calculations~(or~Trails)
-\\
+- **p** = Percentage of Probability
+- **n** = Number of Characters (for prefix)
+- **t** = Number of Calculations (or Trails)
 
-\\
-& Formula ~~~~~~t = log(1-p)/log(1-1/32^n)
-\end{align*}
-$$
+**Formula**:  
+`t = log(1-p) / log(1-1/(32^n))`
 
 ### Example
 
