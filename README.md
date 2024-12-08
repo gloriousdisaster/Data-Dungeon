@@ -2,11 +2,13 @@
 
 <img src="images/icon.png" alt="Data Dungeon" width="300">
 
+---
+
 [![Static Badge](https://img.shields.io/badge/glorious-disaster-blue?labelColor=purple)](https://github.com/gloriousdisaster)
 
 Welcome to the **Data-Dungeon**, where glorious chaos meets disastrous brilliance! 🎉
 
-This is my repository for storing all my ideas—big, small, brilliant, and gloriously disastrous. It's a place for experimentation, learning, and a little bit of madness.
+This is my repository for storing all my ideas—big, small, brilliant, and `gloriously disastrous`. It's a place for experimentation, learning, and a little bit of madness.
 
 ## What You'll Find Here
 
@@ -17,7 +19,7 @@ This is my repository for storing all my ideas—big, small, brilliant, and glor
 
 ## Why "Data-Dungeon"?
 
-Because it's a treasure trove of ideas and experiments, with a little chaos mixed in. Some ideas may shine like gold, others may haunt you like a cursed artifact—but they all have a place here.
+Because it's a `treasure trove` of ideas and experiments, with a little chaos mixed in. Some ideas may shine like gold, others may haunt you like a cursed artifact—but they all have a place here.
 
 ---
 
@@ -35,4 +37,4 @@ Unless explicitly stated otherwise, all original works uploaded to this reposito
 
 ### Philosophy
 
-Glorious Disaster proudly supports copyleft principles—sharing is caring, after all. But let’s be real: if I stumble upon a million-dollar idea, the spirit of sharing might take a backseat to the sweet sound of _cha-ching_. In that case, it’s all about me. 🤷‍♂️
+Glorious Disaster proudly supports `copyleft` principles—sharing is caring, after all. But let’s be real: if I stumble upon a million-dollar idea, the spirit of sharing might take a backseat to the sweet sound of _cha-ching_. In that case, it’s all about me. 🤷‍♂️

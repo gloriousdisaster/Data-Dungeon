@@ -1,4 +1,11 @@
-<img src="images/icon.png" alt="Glorious macOS" width="300">
+<img src="images/mac.png" alt="Glorious macOS" width="300">
+
+---
+
+
+[![Static Badge](https://img.shields.io/badge/glorious-disaster-blue?labelColor=purple)](https://github.com/gloriousdisaster)
+[![MIT License](https://img.shields.io/badge/license-MIT-yellow)](https://opensource.org/licenses/MIT)
+[![CC0 1.0 Universal](https://img.shields.io/badge/license-CC0_1.0-lightgrey)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 # macOS
 
