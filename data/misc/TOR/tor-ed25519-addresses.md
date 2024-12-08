@@ -22,8 +22,8 @@ pending-tasks: false
 
 **If you find errors in this math, let me know.**
 
-> [!note]
-> Base-32 omits the numeral digits of 0,1,8,9
+> **ℹ️ Note:**  
+> Base-32 omits the numeral digits of 0, 1, 8, and 9.
 
 > [!note] > _References:_
 >
@@ -35,7 +35,7 @@ pending-tasks: false
 
 # Equation Breakdown
 
-> [!warning] **GitHub Rendering Warning**  
+> **⚠️ Warning:**  
 > LaTeX and MathJax may not render correctly on GitHub.
 
 ### Formula
