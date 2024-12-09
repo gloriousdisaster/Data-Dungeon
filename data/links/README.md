@@ -1,4 +1,4 @@
-<img src="images/icon.png" alt="Glorious Links" width="300">
+<img src="images/links.png" alt="Glorious Links" width="300">
 
 # Links
 
