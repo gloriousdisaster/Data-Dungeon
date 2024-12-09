@@ -1,4 +1,4 @@
-<img src="images/miscellaneous.png" alt="Glorious Miscellaneous" width="300">
+<img src="images/misc.png" alt="Glorious Miscellaneous" width="300">
 
 ---
 
