@@ -59,6 +59,7 @@ node_modules/
 *.code-workspace
 *.sublime-workspace
 *.sublime-project
+.markdownlint.yaml
 
 # macOS Finder
 .Trashes

@@ -1,6 +1,8 @@
 # Glorious Disaster: The Data Dungeon
 
-Welcome to the **Data Dungeon**, where glorious chaos and creative disaster converge! This is my personal repository for storing and organizing all my ideas, projects, and experiments.
+Welcome to the **Data Dungeon**, where glorious chaos and creative disaster
+converge! This is my personal repository for storing and organizing all my
+ideas, projects, and experiments.
 
 ## Categories
 
