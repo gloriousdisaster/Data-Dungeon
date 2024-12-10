@@ -1,5 +1,7 @@
 # Dynamic MOTD Upon SSH Logon on Debian
 
+## <img src="images/motd.png" alt="Data Dungeon" width="300">
+
 When SSH-ing into a Debian server, the dynamic Message of the Day (MOTD) can be
 displayed by leveraging PAM (Pluggable Authentication Modules) and dynamic scripts.
 

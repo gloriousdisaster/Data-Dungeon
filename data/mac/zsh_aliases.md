@@ -4,9 +4,10 @@ Here is a list of my most loved bash / zsh aliases.
 
 ### Display the Current WIFI Network Information
 
-Apple keeps changing how you pull this info in the shell, and honestly, it’s a bit of a pain. Sometimes, you just need to grab an SSID, especially if it’s ridiculously long or packed with weird characters. This command spits out everything you’d ever want to know about your Mac’s current Wi-Fi status, plus all the SSIDs it can see—no more squinting at your network list.
+Apple keeps changing how you pull this info in the shell, Sometimes, you just need to grab an SSID, especially if it’s ridiculously long or packed with weird characters. This command spits out everything you’d ever want to know about your Mac’s current Wi-Fi status, plus all the SSIDs it can see—no more squinting at your network list.
 
 ```shell
+#Display Current WIFI Information
 alias wifi="system_profiler SPAirPortDataType"
 ```
 

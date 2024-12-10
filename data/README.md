@@ -10,30 +10,30 @@ Welcome to the **Data Dungeon**, where glorious chaos and creative disaster conv
 
 Smart home chaos and automations. Explore my quest to bring order (or chaos) to connected living spaces.
 
-- Custom Dashboard Objects
-- Fire Tablet Kiosks
-- Dumb 2 Smart Smoke Detector
-- Cloud TTS
-- Local TTS & LLM
+- Custom Dashboard Objects (Coming Soon)
+- Fire Tablet Kiosks (Coming Soon)
+- Dumb 2 Smart Smoke Detector (Coming Soon)
+- Cloud TTS (Coming Soon)
+- Local TTS & LLM (Coming Soon)
 
 ---
 
 ### 🐳 **Docker**
 
-Containerized experiments and configurations. From small containers to large-scale orchestration—welcome to the land of Docker.
+Containerized experiments and configurations. Welcome to the land of Docker.
 
-- Compose Collection
-- Docker Networking with VLANs
-- Docker Traefik Networking
+- Compose Collection (Coming Soon)
+- Docker Networking with VLANs (Coming Soon)
+- Docker Traefik Networking (Coming Soon)
 
 ---
 
 ### 🖥️ **Windows**
 
-Scripts and tweaks for Windows. PowerShell magic and little hacks to tame the beast.
+Scripts and tweaks for Windows. PowerShell magic and little hacks to tame the beast (aka, the worst OS).
 
-- Glorious Powershell
-- Sysadmin Collection
+- Glorious Powershell (Coming Soon)
+- Sysadmin Collection (Coming Soon)
 
 ---
 
@@ -41,7 +41,7 @@ Scripts and tweaks for Windows. PowerShell magic and little hacks to tame the be
 
 Command-line wizardry and automation. Bash, Zsh, and other shells—embracing the power of the terminal.
 
-- Glorious Aliases
+- Glorious Aliases (Coming Soon)
 
 ---
 
@@ -58,9 +58,9 @@ Open-source magic and server setups. Where the penguin reigns supreme!
 
 macOS-specific tinkering. Creative chaos within Apple’s ecosystem.
 
-- A Better Dock
-- Sudo with Touch-ID
-- Secretive - SSH Authentication with Tocuh-ID
+- A Better Dock (Coming Soon)
+- Sudo with Touch-ID (Coming Soon)
+- Secretive - SSH Authentication with Tocuh-ID (Coming Soon)
 
 ---
 
@@ -68,7 +68,7 @@ macOS-specific tinkering. Creative chaos within Apple’s ecosystem.
 
 Prototypes and ideas for mobile, desktop, and web apps. From sketches to functional creations.
 
-- My Glorious List
+- My Glorious List (Coming Soon)
 
 ---
 
@@ -77,10 +77,10 @@ Prototypes and ideas for mobile, desktop, and web apps. From sketches to functio
 Everything that doesn’t fit elsewhere. The ultimate catch-all for experiments and random ideas.
 
 - [Crunching the Numbers: Calculating Time for Tor Onion Vanity Address Generation](/data/misc/cryptography/tor-ed25519-addresses.md)
-- SDR - Capturing Pager Communication
-- Decoding P25 & DRM
-- ADS-B Flight Tracking
-- Stratus 1 - NTP Time Server
+- SDR - Capturing Pager Communication (Coming Soon)
+- Decoding P25 & DRM (Coming Soon)
+- ADS-B Flight Tracking (Coming Soon)
+- Stratus 1 - NTP Time Server (Coming Soon)
 
 ---
 
