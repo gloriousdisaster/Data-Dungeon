@@ -58,6 +58,7 @@ Open-source magic and server setups. Where the penguin reigns supreme!
 
 macOS-specific tinkering. Creative chaos within Apple’s ecosystem.
 
+- [Mac Specific: ZSH Aliases](/data/mac/zsh_aliases.md)
 - A Better Dock (Coming Soon)
 - Sudo with Touch-ID (Coming Soon)
 - Secretive - SSH Authentication with Tocuh-ID (Coming Soon)
