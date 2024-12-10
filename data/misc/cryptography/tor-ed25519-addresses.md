@@ -1,16 +1,11 @@
-# Calculating Time - Generating Onion Addresses
+# Calculating Time - Generating Onion Vanity Addresses
 
-[![Static Badge](https://img.shields.io/badge/certified-disaster-blue)](https://github.com/gloriousdisaster)
+Onion addresses are unique identifiers used within the Tor network to access hidden services anonymously. Each `.onion` address is derived from an ED25519 cryptographic key pair, ensuring privacy, security, and ownership—if you hold the private key, you effectively hold the address. While generating a standard onion address is straightforward, creating a custom or “vanity” address with specific character patterns can be significantly more resource-intensive. Tools like [mkp224o](https://github.com/cathugger/mkp224o) can brute force these desired key pairs, illustrating how even modest increases in the desired complexity can push generation times from mere seconds to several years.
 
-<span style="color: red;">If any of this is important to you, I'd check my math.
-It really could be disastrous.</span>
+> [!note]
+> Base-32 omits the numeral digits of 0,1,8,9
 
-**If you find errors in this math, let me know.**
-
-> **ℹ️ Note:**  
-> Base-32 omits the numeral digits of 0, 1, 8, and 9.
-
-> **📖 References:**
+> [!note] > _References:_
 >
 > - https://github.com/cathugger/mkp224o/issues/27 #github
 > - https://mathway.com
@@ -20,17 +15,37 @@ It really could be disastrous.</span>
 
 # Equation Breakdown
 
-> **⚠️ Warning:**  
-> LaTeX and MathJax may not render correctly on GitHub.
+```markdown
+formula for github
 
 ### Formula
 
 - **p** = Percentage of Probability
-- **n** = Number of Characters (for prefix)
-- **t** = Number of Calculations (or Trails)
 
-**Formula**:  
+- **n** = Number of Characters (for prefix)
+
+- **t** = Number of Calculations (or Trails)
+  **Formula**:
+
 `t = log(1-p) / log(1-1/(32^n))`
+```
+
+### Formula
+
+> [!warning] **GitHub Rendering Warning**
+> LaTeX and MathJax may not render correctly on GitHub.
+
+$$
+\large \begin{align*}
+& p=Percentage ~ of ~ Probability \\
+& n= Number ~ of ~ Characters ~ (for~prefix) \\
+& t= Number ~ of ~ Calculations~(or~Trails)
+\\
+
+\\
+& Formula ~~~~~~t = log(1-p)/log(1-1/32^n)
+\end{align*}
+$$
 
 ### Example
 
@@ -52,8 +67,10 @@ $$
 <br>
 Starting with parentheses, subtract .99 from 1.
 
-$\large \log (1 - .99) = \log (0.01)$ <br><br>
-$\large LOG10~~of~~0.01~\approx -2$ <br><br>
+$\large \log (1 - .99) = \log (0.01)$
+<br><br>
+$\large LOG10~~of~~0.01~\approx -2$
+<br><br>
 
 $$
 \LARGE
@@ -72,14 +89,11 @@ $$
 
 <br><br>
 
-Apply the product rule to $~~~\large ~~~\frac{1}{32}$
-$~~~ \large \frac{-2}{\log \left(1-\frac{1^{2}}{32^{2}}\right)}$
+Apply the product rule to $~~~\large ~~~\frac{1}{32}$ $~~~ \large \frac{-2}{\log \left(1-\frac{1^{2}}{32^{2}}\right)}$
 
-One to any power is one.
-$~~~~~~~~~ \large \frac{-2}{\log \left(1-\frac{1}{32^{2}}\right)}$
+One to any power is one. $~~~~~~~~~ \large \frac{-2}{\log \left(1-\frac{1}{32^{2}}\right)}$
 
-Raise 32 to the power of 2 .
-$~~~~~~ \large \frac{-2}{\log \left(1-\frac{1}{1024}\right)}$
+Raise 32 to the power of 2 . $~~~~~~ \large \frac{-2}{\log \left(1-\frac{1}{1024}\right)}$
 
 Write 1 as a fraction with a common denominator.
 
@@ -122,9 +136,8 @@ $\huge t~\approx~4713.391395\ldots$
 
 ### Probable Data Calculations
 
-**Excel Formula** The following formula is used to create a data table using the
-above equation. The table can plot the probable calculations required based on
-the number of characters defined.
+**Excel Formula**
+The following formula is used to create a data table using the above equation. The table can plot the probable calculations required based on the number of characters defined.
 
 ```
 LOG10(1-'calculations')/LOG10(1-1/32^'probability')
@@ -135,10 +148,9 @@ LOG10(1-'calculations')/LOG10(1-1/32^'probability')
 ###### Shows the Number of Possible Calculations by Probability and Character Count.
 
 - **X-Axis**: Character Count (number of characters in the string)
-- **Y-Axis**: Probability (percentage chance of obtaining a specific "string
-  value")
-- **Data**: The number of calculations required to reach the specified
-  probability, given the character count <br><br>
+- **Y-Axis**: Probability (percentage chance of obtaining a specific "string value")
+- **Data**: The number of calculations required to reach the specified probability, given the character count
+  <br><br>
 
 |        | **50%**         | **99%**          |
 | ------ | --------------- | ---------------- |
@@ -154,8 +166,7 @@ LOG10(1-'calculations')/LOG10(1-1/32^'probability')
 
 #### Table B
 
-Taking the information from Table A, we can assume how much time will be needed
-to obtain the defined character prefix by the probability level.
+Taking the information from Table A, we can assume how much time will be needed to obtain the defined character prefix by the probability level.
 
 We will need an approximation of the compute resources calculations per second.
 <br><br>
@@ -174,31 +185,28 @@ $$
 <br><br>
 
 - **X-Axis**: Character Count (number of characters in the string)
-- **Y-Axis**: Probability (percentage chance of obtaining a specific "string
-  value")
-- **Data**: Amount of time needed to process the required calculations.
-  (Assuming the compute resource can process ~35 million calculations per
-  second.)
-  - _(Using a Dell XPS 15 | Intel i9-11900H | Thermal Throttling - 14 Treads @ ~
-    3.3GHz | Resulting ~ 35M Calc Per Second_)
+- **Y-Axis**: Probability (percentage chance of obtaining a specific "string value")
+- **Data**: Amount of time needed to process the required calculations. (Assuming the compute resource can process ~35 million calculations per second.)
+  - _(Using a Dell XPS 15 | Intel i9-11900H | Thermal Throttling - 14 Treads @ ~ 3.3GHz | Resulting ~ 35M Calc Per Second_)
 
 <br><br>
 
-|        | **50%**            | **99%**                     |
-| ------ | ------------------ | --------------------------- |
-| **2**  | Less than 1 second | Less than 1 second          |
-| **3**  | Less than 1 second | Less than 1 second          |
-| **4**  | Less than 1 second | Less than 1 second          |
-| **5**  | 1 Second           | 4 Seconds                   |
-| **6**  | 21 Sec             | 2 Min, 21 Sec               |
-| **7**  | 11 Min, 20 Sec     | 15 Min, 21 Sec              |
-| **8**  | 6 hours            | 1 Day, 16 hours             |
-| **9**  | 8 Days             | 53 Days                     |
-| **10** | 8 Months, 14 Days  | 4 Years, 18 Months, 10 Days |
+| Characters | **50% Probability** | **99% Probability**         |
+| ---------- | ------------------- | --------------------------- |
+| **2**      | Less than 1 second  | Less than 1 second          |
+| **3**      | Less than 1 second  | Less than 1 second          |
+| **4**      | Less than 1 second  | Less than 1 second          |
+| **5**      | 1 Second            | 4 Seconds                   |
+| **6**      | 21 Sec              | 2 Min, 21 Sec               |
+| **7**      | 11 Min, 20 Sec      | 15 Min, 21 Sec              |
+| **8**      | 6 hours             | 1 Day, 16 hours             |
+| **9**      | 8 Days              | 53 Days                     |
+| **10**     | 8 Months, 14 Days   | 4 Years, 18 Months, 10 Days |
 
 _(Excel Formula Examples for time)_
 
-> [!note] Excel has issues when the value is under zero.
+> [!note]
+> Excel has issues when the value is under zero.
 
 ```
 LOG10(1-$calculations)/LOG10(1-1/32^$probability)/$CalPerSec
