@@ -38,4 +38,3 @@ Unless explicitly stated otherwise, all original works uploaded to this reposito
 ### Philosophy
 
 ## Glorious Disaster proudly supports `copyleft` principles—sharing is caring, after all. But let’s be real: if I stumble upon a million-dollar idea, the spirit of sharing might take a backseat to the sweet sound of _cha-ching_. In that case, it’s all about me. 🤷‍♂️ ..
->>>>>>> staging
