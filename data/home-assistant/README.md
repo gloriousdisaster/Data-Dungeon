@@ -8,7 +8,9 @@
 
 # Home Assistant
 
-This folder contains all my Home Assistant configurations, automations, and experiments. Explore my glorious attempts to bring chaos (and order) to smart home automation.
+This folder contains all my Home Assistant configurations, automations, and
+experiments. Explore my glorious attempts to bring chaos (and order) to smart home
+automation.
 
 ## Contents
 
