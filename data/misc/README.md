@@ -19,12 +19,3 @@ Welcome to the junk drawer of the **Data Dungeon**! This is where all the glorio
 ## Philosophy
 
 Some might call it "unorganized," but I prefer "creatively flexible." Here lies the true essence of chaos and brilliance.
-
----
-
-### License
-
-Unless explicitly stated otherwise, all original works in this folder are made available under:
-
-[![MIT License](https://img.shields.io/badge/license-MIT-yellow)](https://opensource.org/licenses/MIT)  
-[![CC0 1.0 Universal](https://img.shields.io/badge/license-CC0_1.0-lightgrey)](https://creativecommons.org/publicdomain/zero/1.0/)
