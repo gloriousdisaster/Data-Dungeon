@@ -8,33 +8,43 @@
 
 Welcome to the **Data-Dungeon**, where glorious chaos meets disastrous brilliance! 🎉
 
-This is my repository for storing all my ideas—big, small, brilliant, and `gloriously disastrous`. It's a place for experimentation, learning, and a little bit of madness.
+This repository complements the blog posts on [GloriousDisaster.com](https://gloriousdisaster.com). It serves as a hub for technical content, raw data, and ideas that bring more depth and hands-on value to the blog.
+
+[View Technical Data](https://github.com/gloriousdisaster/Data-Dungeon/tree/main/data/)
 
 ## What You'll Find Here
 
-- 🗃️ Random scripts and tools
-- 🧪 Experimental code and projects
-- 📜 Notes, thoughts, and ideas
-- 🛠️ Works in progress (and plenty of glorious failures)
+- 🗃️ Scripts, tools, and configurations
+- 🧪 Experimental projects and proof-of-concept code
+- 📜 Technical notes, raw ideas, and troubleshooting tips
+- 🛠️ Reference materials and blog post extensions
 
 ## Why "Data-Dungeon"?
 
-Because it's a `treasure trove` of ideas and experiments, with a little chaos mixed in. Some ideas may shine like gold, others may haunt you like a cursed artifact—but they all have a place here.
+This repository is a treasure trove of knowledge—sometimes polished, sometimes messy, but always useful. Think of it as a dungeon crawl: you might uncover hidden gems, encounter unexpected challenges, or stumble upon curious artifacts. Every piece tells a story and adds to the adventure.
 
 ---
 
-Feel free to explore, learn, laugh, and (hopefully) find some inspiration. Beware: the Data-Dungeon is not for the faint of heart.
+### Connecting with the Blog
 
-🚀 Let the chaos begin!
+For a richer experience, check out related posts on [GloriousDisaster.com](https://gloriousdisaster.com). Blog entries will reference materials here, so you can dive deeper into the technical aspects and see raw ideas in action.
+
+🚀 Ready to explore? The Data-Dungeon awaits!
 
 ---
 
 ### License
 
-Unless explicitly stated otherwise, all original works uploaded to this repository are made available under:
+- All code is licensed under the [MIT License](https://opensource.org/licenses/MIT) unless otherwise stated at the top of the code in a comment.
+- All blog posts and markdown files are licensed under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) unless otherwise stated.
+- All original imagery, including logos, pictures, diagrams, and similar content, are fully copyrighted by Glorious Disaster.
 
-## [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC0 1.0 Universal](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![CC BY NC SA](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+
+---
 
 ### Philosophy
 
-## Glorious Disaster proudly supports `copyleft` principles—sharing is caring, after all. But let’s be real: if I stumble upon a million-dollar idea, the spirit of sharing might take a backseat to the sweet sound of _cha-ching_. In that case, it’s all about me. 🤷‍♂️ ..
+**Glorious Disaster** values a balanced approach to licensing. While supporting the spirit of copyleft and the free sharing of knowledge, this repository also recognizes the need for flexibility. Different licenses are applied where appropriate to reflect the nature of the content. Collaboration and inspiration are key, but some treasures might need a bit more guarding—every adventurer needs to protect their most valuable artifacts! 😉
