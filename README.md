@@ -10,6 +10,8 @@ Welcome to the **Data-Dungeon**, where glorious chaos meets disastrous brillianc
 
 This repository complements the blog posts on [GloriousDisaster.com](https://gloriousdisaster.com). It serves as a hub for technical content, raw data, and ideas that bring more depth and hands-on value to the blog.
 
+[View Technical Data](https://github.com/gloriousdisaster/Data-Dungeon/tree/main/data/)
+
 ## What You'll Find Here
 
 - 🗃️ Scripts, tools, and configurations
